@@ -1,0 +1,39 @@
+
+.profilewrap{
+    position: absolute;
+    right:2rem;
+    top: 0.2rem;
+    display: flex;
+    justify-content:flex-end;
+    min-width:10rem;
+    height: 14%;
+}
+.profileName{
+    position: relative;
+    padding: 0.3rem;
+    padding-right:2.5rem;
+    padding-left: 1rem;
+    background-color: var(--yellow_dark);
+    border-radius: 2rem;
+    margin-top: 0.8rem;
+    height: 1.5rem;
+    left: 2rem;
+    text-align: left;
+    white-space: nowrap;
+    font-family: 'Sanchez';
+    color: white;
+
+}
+.profileImage{
+    position: relative;
+    z-index: 2;
+    border: 0.2rem solid white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    float: left;
+    background-color:var(--yellow_dark) ;
+    background-image: url('/src/components/images/default-avatar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

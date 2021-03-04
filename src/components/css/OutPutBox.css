@@ -1,0 +1,44 @@
+.outputwrap {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 45rem;
+    height: 20rem;
+    background-color: #845EC2;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.outputwhitewrap {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 45rem;
+    height: 18rem;
+    background-color: #fcfcfc;
+    border-radius: 1rem 1rem 0 0;
+    overflow: scroll;
+    text-align: center;
+}
+.hands{
+    position: relative;
+    display: inline-block;
+    width: 4.7rem;
+    height: 4.7rem;
+    overflow: hidden;
+}
+.hands>img{
+    position: relative;
+    width: 37.5rem;
+    height: 18.75rem;
+}
+
+[hand-data]:before {
+	content: attr(hand-data);
+    position: absolute;
+    top:4rem;
+    left:2rem;
+    z-index: 100;
+}

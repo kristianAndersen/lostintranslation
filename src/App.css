@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Sanchez&display=swap');
+
+
+:root {
+    --yellow: #FFC75F;
+    --yellow_dark: #E7B355;
+    --purple: #845EC2;
+    --lightpurple: #a98ddb;
+    --light_grey: #EFEFEF;
+    --grey: #969696;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 65.2%;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Love Ya Like A Sister';
+    color: white;
+    font-weight: lighter;
+    text-rendering: geometricPrecision;
+    --minFontSize: 2rem;
+    --maxFontSize: 8rem;
+    --scaler: 4vw;
+    font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Sanchez';
+    color: white;
+    font-weight: lighter;
+    text-rendering: geometricPrecision;
+    --minFontSize: 2rem;
+    --maxFontSize: 4rem;
+    --scaler: 3vw;
+    font-size: clamp(var(--minFontSize), var(--scaler), var(--maxFontSize));
+
+}
+
+p {
+    font-size: calc(1.5rem+1vw);
+    font-family: 'Sanchez';
+}
+
+

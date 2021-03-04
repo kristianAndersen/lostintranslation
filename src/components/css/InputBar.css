@@ -1,0 +1,116 @@
+.inputwrap {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -5.5rem;
+    width: 45rem;
+    height: 10rem;
+    background-color: var(--purple);
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.5);
+
+}
+.inputwrap.nobg1 {
+    background-color:transparent;
+    transition: background-color 0.2s ease-out;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transition: box-shadow 0.2s ease-out;
+    margin-top: -10rem;
+    transition: margin-top 0.2s ease-out;
+}
+
+.inputwhitewrap {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -5.5rem;
+    width: 45rem;
+    height: 8rem;
+    background-color: #fcfcfc;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.inputwhitewrap.nobg2 {
+    background-color:transparent;
+    transition: background-color 0.5s ease-out;
+}
+
+
+.formwrap {
+    width: 80%;
+    height: 70%;
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.form-input {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:var(--light_grey);
+    border: 0.2rem solid var(--grey);
+    font-size: 1.4em;
+    padding: .4em .7em;
+    position: relative;
+    border-radius: 4rem;
+
+
+}
+
+.input {
+    background: none;
+    position: relative;
+    float: left;
+    border: none;
+    display: block;
+    height: 100%;
+    width: 83%;
+    padding-left: 0.5em;
+    padding-right: 1.4em;
+    font-family: 'Sanchez';
+    font-size: 150%;
+}
+input:focus {
+    outline:none;
+}
+
+.iconl {
+    left: 0;
+    position: relative;
+    float: left;
+}
+.iconl::after {
+    content: "|";
+    position: relative;
+    margin-left: 0.2rem;
+    top: -0.2rem;
+    font-size: 1.5rem;
+    color: var(--grey);
+}
+.iconr {
+    right: -0.60rem;
+    position: relative;
+    float: right;
+    top: -0.35rem;
+    cursor: pointer;
+}
+
+.fa-keyboard {
+    font-size: 200%;
+    margin-top: 0.2em;
+    color: var(--grey);
+}
+
+
+.fa-arrow-alt-circle-right {
+    color: var(--purple);
+    font-size: 350%;
+    padding: 0;
+    line-height: 0rem;
+
+}
+.fa-arrow-alt-circle-right:hover {
+color: var(--lightpurple);
+
+}
