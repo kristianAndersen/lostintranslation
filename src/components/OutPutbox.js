@@ -14,7 +14,7 @@ const Outputbox = forwardRef((props, ref) => {
     useImperativeHandle(ref, () => ({
 
         translate(strToTranslate) {
-            console.log(strToTranslate + " Trans")
+         
             /**create array from the string  */
             let ArrToTranslate = strToTranslate.toUpperCase().split('');
             /**Find matching letters in in hand potision object */
@@ -24,13 +24,9 @@ const Outputbox = forwardRef((props, ref) => {
             const translation = ArrToTranslate.map((i) => result.find((j) => j.letter === i));
 
             setTranslate(translation)
-
         }
 
     }));
-
-
-   
     /**
      * random unique key for react to keep track of
      * child in list
@@ -50,11 +46,7 @@ const Outputbox = forwardRef((props, ref) => {
                              * setting top and left on img tag to move sprite sheet arround inside hands-div
                             */}
                             <img src={signhands} srcSet={signhandswebp} style={{ left: "-" + translate.x + 'px', top: "-" + translate.y + 'px' }} alt={"ASL hand of the letter " + translate.letter} />
-
-                        </div>
-
-                    )}
-
+                        </div>)}
                 </div>
             </div>
 

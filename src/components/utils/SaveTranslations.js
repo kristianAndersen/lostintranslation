@@ -9,5 +9,7 @@ export function SaveTranslations(saveit){
 
     /**unshift array to add items at the start of the array*/
     translations.unshift(saveit)
+    console.log(translations)
+    console.log("from translations array")
     return translations 
 }

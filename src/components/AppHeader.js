@@ -20,9 +20,9 @@ const Appheader = forwardRef((props, ref) => {
                 lhwrap.current.classList.toggle("gone");
                 //Push new url path
                 history.push("/translate");
-            }}
+            }
+        }
     }));
-
 
     return (
         <div>
